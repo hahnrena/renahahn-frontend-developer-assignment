@@ -64,10 +64,7 @@ const SelectedRecipients = ({
     <Container>
       <h2>{selectedRecipients}</h2>
       <div style={{ width: "350px", padding: "25px" }}>
-        <Accordion
-          defaultExpanded
-          style={{ border: "1px solid grey", marginTop: "92px" }}
-        >
+        <Accordion defaultExpanded style={{ border: "1px solid grey" }}>
           <AccordionSummary expandIcon={<ExpandMore />}>
             <Typography>{companyRecipientsText}</Typography>
           </AccordionSummary>
